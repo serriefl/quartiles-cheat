@@ -1,3 +1,11 @@
+'''Python File to generate all possible words from the given word chunks
+    and check if the word is valid or not. 
+    The word is valid if it is present in the dictionary.
+    
+    This is used for Apple's Quartiles app.
+    
+    Last updated: 2025-01-12'''
+
 import time
 from itertools import product
 from spellchecker import SpellChecker
