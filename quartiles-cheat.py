@@ -33,7 +33,7 @@ def generate_unique_combinations(word_chunks, max_length=4):
 if __name__ == "__main__":
     start_time = time.time()
 
-    word_chunks = ['ics', 'clo', 'acr', 'pan', 'to', 'oni', 'wn', 'at', 'ob', 'is', 'st', 'hly', 'as', 'gm', 'mim', 'ters', 'usi', 'ill', 'rin', 'ing']
+    word_chunks = ['pre', 'rin', 'lla','od', 'opi','al','nat','nup','chi','hea','in','rtst','gs','nio','ed','ga','tes','ch','flo','ti']
 
     # Generate valid words with a maximum length of 4 (no repetition)
     unique_valid_words_set = generate_unique_combinations(word_chunks, max_length=4)
